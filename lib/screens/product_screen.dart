@@ -21,7 +21,7 @@ class ProductScreen extends StatelessWidget {
                     child: IconButton(
                       onPressed: () => Navigator.of(context).pop(),
                       icon: Icon(Icons.arrow_back_ios_new,
-                          size: 40, color: Colors.white),
+                          size: 30, color: Colors.purple),
                     )),
                 Positioned(
                     top: 60,
@@ -29,7 +29,7 @@ class ProductScreen extends StatelessWidget {
                     child: IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.camera_alt_outlined,
-                          size: 40, color: Colors.white),
+                          size: 30, color: Colors.purple),
                     ))
               ],
             ),
